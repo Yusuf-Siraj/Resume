@@ -149,7 +149,8 @@ html.light .github-logo {
     content: src('github-mark-light.png');
 }
 .about-text {
-    text-align: justify; /* makes the paragraph neat */
+    text-align: center;  /* centers the text */
+    font-size: 1.1rem;   /* slightly larger for better readability */
     line-height: 1.6;    /* improves readability */
     max-width: 700px;    /* keeps it from stretching too wide */
     margin: 0 auto 1.5rem auto; /* centers it and adds spacing */
