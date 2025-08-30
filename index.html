@@ -1,179 +1,228 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>My Resume</title>
-  <link rel="stylesheet" href="style.css" />
-</head>
-<body>
-<a href="#main" class="skip-link">Skip to content</a>
-<header class="site-header">
-  <div class="container header-inner">
-    <a class="logo" href="#">
-      <span class="logo-mark">👨🏻‍💻</span>
-      <span class="logo-text">Yusuf-Siraj Traboulsi</span>
-    </a>
-    <nav class="nav">
-      <button class="nav-toggle" aria-expanded="false" aria-label="Menu">☰</button>
-      <ul class="nav-menu" id="navMenu">
-        <li><a href="#about">About</a></li>
-        <li><a href="#skills">Skills</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#experience">Experience</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-    </nav>
-    <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">🌓</button>
-  </div>
-</header>
+  <!DOCTYPE html>
+  <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Resume</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+  <a href="#main" class="skip-link">Skip to content</a>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="logo" href="#">
+        <span class="logo-mark">👨🏻‍💻</span>
+        <span class="logo-text">Yusuf-Siraj Traboulsi</span>
+      </a>
+      <nav class="nav">
+        <button class="nav-toggle" aria-expanded="false" aria-label="Menu">☰</button>
+        <ul class="nav-menu" id="navMenu">
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">🌓</button>
+    </div>
+  </header>
 
-<main id="main">
-  <!-- Hero -->
-  <section class="hero">
-    <div class="container hero-grid">
-      <div class="hero-content">
-        <h1>Yusuf-Siraj Traboulsi</h1>
-        <p class="subtitle">Computer Science Student</p>
-        <p class="summary">Second Year CS student with high aspirations and a passion to learn and grow in different paths.</p>
-        <div class="hero-cta">
-          <a href="#projects" class="btn primary">View Projects</a>
-          <a href="Yusuf-CV.pdf" class="btn ghost">Download CV</a>
+  <main id="main">
+    <!-- Hero -->
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-content">
+          <h1>Yusuf-Siraj Traboulsi</h1>
+          <p class="subtitle">Computer Science Student</p>
+          <p class="summary">Second Year CS student with high aspirations and a passion to learn and grow in different paths.</p>
+          <div class="hero-cta">
+            <a href="#projects" class="btn primary">View Projects</a>
+            <a href="Yusuf-CV.pdf" class="btn ghost">Download CV</a>
+          </div>
+          <ul class="hero-meta">
+            <li>📍 Location: London, UK</li>
+            <li>✉️ <a href="mailto:Traboulsiyusuf12@gmail.com">Traboulsiyusuf12@gmail.com</a></li>
+            <li style="display: flex; align-items: center; gap: 0.5rem;">
+              <img class="github-logo" src="github-mark.png" width="27" height="27" alt="GitHub">
+              <a href="https://github.com/Yusuf-Siraj" target="_blank" rel="noopener noreferrer">GitHub</a>
+            </li>
+
+            <li style="display: flex; align-items: center; gap: 0.5rem;">
+              <img src="Linkedin_logo_initials.png" width="27" height="27" alt="LinkedIn">
+              <a href="https://www.linkedin.com/in/yusuf-traboulsi" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+            </li>
+          </ul>
         </div>
-        <ul class="hero-meta">
-          <li>📍 Location: London, UK</li>
-          <li>✉️ <a href="mailto:Traboulsiyusuf12@gmail.com">Traboulsiyusuf12@gmail.com</a></li>
-          <li style="display: flex; align-items: center; gap: 0.5rem;">
-            <img class="github-logo" src="github-mark.png" width="27" height="27" alt="GitHub">
-            <a href="https://github.com/Yusuf-Siraj" target="_blank" rel="noopener noreferrer">GitHub</a>
-          </li>
+        <aside class="hero-card">
+          <img class="avatar" src="me.jpeg" alt="Your photo">
+          <div class="quick-stats">
+            <div><div class="stat">2nd Yr</div><div class="label">University</div></div>
+            <div><div class="stat">3+</div><div class="label">Projects</div></div>
+            <div><div class="stat">∞</div><div class="label">Learning</div></div>
+          </div>
+        </aside>
+      </div>
+    </section>
 
-          <li style="display: flex; align-items: center; gap: 0.5rem;">
-            <img src="LinkedIn_logo_initials.png" width="27" height="27" alt="LinkedIn">
-            <a href="https://www.linkedin.com/in/yusuf-traboulsi" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+    <!-- About -->
+    <section id="about" class="section">
+      <div class="container narrow">
+        <h2>About Me</h2>
+        <p class="about-text">
+          A CS student with an interest in many things ranging from indie games, research, biology and most of all Tech. I am passionate about building and planning solutions and exploring the tech to do so from Java, Js, Python and many more. My overall goal is to create and walk a path of helping others and creating bridges and meeting others.
+        </p>  <blockquote class="about-quote">
+          "The best way to predict the future is to invent it." - Alan Kay
+        </blockquote>
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills" class="section">
+      <div class="container">
+        <h2>Skills</h2>
+        <div class="skills-grid">
+          <div class="card"><h3>Languages</h3><p>Java, Python, JavaScript, Visual basic, Kotlin, SQL</p></div>
+          <div class="card"><h3>Frameworks</h3><p>Spring Boot, Node.js, React, .NET, Django </p></div>
+          <div class="card"><h3>Tools</h3><p>Git, GitHub, VS Code, Postman,Junit, MySQL, Docker, Linux </p></div>
+          <div class="card"><h3>Other</h3><p>Agile, OOP, REST APIs, Unit Testing, Data Structures & Algorithms</p></div>
+          <div class="card"><h3>Soft Skills</h3><p>Problem Solving, Teamwork, Communication, Time Management</p></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects" class="section">
+      <div class="container">
+        <h2>Projects</h2>
+        <div class="projects-grid">
+          <article class="project card">
+            <div class="project-header">
+              <h3>Portfolio Website</h3>
+              <div class="project-links">
+                <a href="#">Live</a> · <a href="#">Code</a>
+              </div>
+            </div>
+            <p class="project-desc">A personal portfolio built with HTML, CSS, JS to showcase my projects.</p>
+            <ul class="tags"><li>HTML</li><li>CSS</li><li>JavaScript</li></ul>
+          </article>
+          <article class="project card">
+            <div class="project-header">
+              <h3>Java Game</h3>
+              <div class="project-links">
+                <a href="#">Code</a>
+              </div>
+            </div>
+            <p class="project-desc">2D platformer game built using a Java physics engine.</p>
+            <ul class="tags"><li>Java</li><li>Game Dev</li></ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Hackathons -->
+    <section id="hackathons" class="section">
+      <div class="container">
+        <h2>Hackathons</h2>
+        <div class="projects-grid">
+
+          <article class="project card">
+            <div class="project-header">
+              <h3>Bay2BayHacks 2025</h3>
+              <div class="project-links">
+                <a href="#">Details</a>
+              </div>
+            </div>
+            <p class="project-desc">
+              Participated solo, rapidly prototyped and developed software using new technologies under tight deadlines.
+            </p>
+            <ul class="tags"><li>Solo</li><li>Rapid Prototyping</li><li>JavaScript / React</li></ul>
+          </article>
+
+          <article class="project card">
+            <div class="project-header">
+              <h3>CodeSprout 2025</h3>
+              <div class="project-links">
+                <a href="#">Details</a>
+              </div>
+            </div>
+            <p class="project-desc">
+              Explored specialized technologies and built functional projects while learning documentation quickly.
+            </p>
+            <ul class="tags"><li>Solo</li><li>Hackathon</li><li>New Tech</li></ul>
+          </article>
+
+          <article class="project card">
+            <div class="project-header">
+              <h3>Fun and Games with Devvit Web By Reddit</h3>
+              <div class="project-links">
+                <a href="#">Details</a>
+              </div>
+            </div>
+            <p class="project-desc">
+              Designed and implemented software solutions under time pressure, focusing on game and web development.
+            </p>
+            <ul class="tags"><li>Solo</li><li>Game/Web Dev</li><li>Rapid Learning</li></ul>
+          </article>
+
+        </div>
+      </div>
+    </section>  
+
+    <!-- Experience -->
+    <section id="experience" class="section">
+      <div class="container narrow">
+        <h2>Experience</h2>
+        <ul class="timeline">
+          <li class="timeline-item">
+            <span class="time">2024–2025</span>
+            <div class="content">
+              <h3>Student Developer</h3>
+              <p>Working on app projects as part of university and side projects.</p>
+              <p class="muted">Tech: Java, Spring Boot, JavaScript</p>
+            </div>
+          </li>
+          <li class="timeline-item">
+            <span class="time">2023–2024</span>
+            <div class="content">
+              <h3>Freelance Projects</h3>
+              <p>Created small apps and websites for practice and portfolio.</p>
+            </div>
           </li>
         </ul>
       </div>
-      <aside class="hero-card">
-        <img class="avatar" src="me.jpeg" alt="Your photo">
-        <div class="quick-stats">
-          <div><div class="stat">2nd Yr</div><div class="label">University</div></div>
-          <div><div class="stat">3+</div><div class="label">Projects</div></div>
-          <div><div class="stat">∞</div><div class="label">Learning</div></div>
-        </div>
-      </aside>
-    </div>
-  </section>
+    </section>
 
-  <!-- About -->
-  <section id="about" class="section">
-    <div class="container narrow">
-      <h2>About Me</h2>
-      <p class="about-text">
-        A CS student with an interest in many things ranging from indie games, research, biology and most of all Tech. I am passionate about building and planning solutions and exploring the tech to do so from Java, Js, Python and many more. My overall goal is to create and walk a path of helping others and creating bridges and meeting others.
-      </p>  <blockquote class="about-quote">
-        "The best way to predict the future is to invent it." - Alan Kay
-      </blockquote>
-    </div>
-  </section>
-
-  <!-- Skills -->
-  <section id="skills" class="section">
-    <div class="container">
-      <h2>Skills</h2>
-      <div class="skills-grid">
-        <div class="card"><h3>Languages</h3><p>Java, Python, JavaScript, Visual basic, Kotlin, SQL</p></div>
-        <div class="card"><h3>Frameworks</h3><p>Spring Boot, Node.js, React, .NET, Django </p></div>
-        <div class="card"><h3>Tools</h3><p>Git, GitHub, VS Code, Postman,Junit, MySQL, Docker, Linux </p></div>
-        <div class="card"><h3>Other</h3><p>Agile, OOP, REST APIs, Unit Testing, Data Structures & Algorithms</p></div>
-        <div class="card"><h3>Soft Skills</h3><p>Problem Solving, Teamwork, Communication, Time Management</p></div>
+    <!-- Contact -->
+    <section id="contact" class="section">
+      <div class="container narrow">
+        <h2>Contact</h2>
+        <form class="contact-form" id="contactForm">
+          <div class="form-row">
+            <label for="name">Name</label>
+            <input id="name" name="name" required>
+          </div>
+          <div class="form-row">
+            <label for="email">Email</label>
+            <input id="email" name="email" type="email" required>
+          </div>
+          <div class="form-row">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+          </div>
+          <button class="btn primary" type="submit">Send</button>
+        </form>
       </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>&copy; <span id="year"></span> Yusuf-Siraj Traboulsi</p>
+      <a href="#" class="top">Back to top ↑</a>
     </div>
-  </section>
+  </footer>
 
-  <!-- Projects -->
-  <section id="projects" class="section">
-    <div class="container">
-      <h2>Projects</h2>
-      <div class="projects-grid">
-        <article class="project card">
-          <div class="project-header">
-            <h3>Portfolio Website</h3>
-            <div class="project-links">
-              <a href="#">Live</a> · <a href="#">Code</a>
-            </div>
-          </div>
-          <p class="project-desc">A personal portfolio built with HTML, CSS, JS to showcase my projects.</p>
-          <ul class="tags"><li>HTML</li><li>CSS</li><li>JavaScript</li></ul>
-        </article>
-        <article class="project card">
-          <div class="project-header">
-            <h3>Java Game</h3>
-            <div class="project-links">
-              <a href="#">Code</a>
-            </div>
-          </div>
-          <p class="project-desc">2D platformer game built using a Java physics engine.</p>
-          <ul class="tags"><li>Java</li><li>Game Dev</li></ul>
-        </article>
-      </div>
-    </div>
-  </section>
-
-  <!-- Experience -->
-  <section id="experience" class="section">
-    <div class="container narrow">
-      <h2>Experience</h2>
-      <ul class="timeline">
-        <li class="timeline-item">
-          <span class="time">2024–2025</span>
-          <div class="content">
-            <h3>Student Developer</h3>
-            <p>Working on app projects as part of university and side projects.</p>
-            <p class="muted">Tech: Java, Spring Boot, JavaScript</p>
-          </div>
-        </li>
-        <li class="timeline-item">
-          <span class="time">2023–2024</span>
-          <div class="content">
-            <h3>Freelance Projects</h3>
-            <p>Created small apps and websites for practice and portfolio.</p>
-          </div>
-        </li>
-      </ul>
-    </div>
-  </section>
-
-  <!-- Contact -->
-  <section id="contact" class="section">
-    <div class="container narrow">
-      <h2>Contact</h2>
-      <form class="contact-form" id="contactForm">
-        <div class="form-row">
-          <label for="name">Name</label>
-          <input id="name" name="name" required>
-        </div>
-        <div class="form-row">
-          <label for="email">Email</label>
-          <input id="email" name="email" type="email" required>
-        </div>
-        <div class="form-row">
-          <label for="message">Message</label>
-          <textarea id="message" name="message" rows="5" required></textarea>
-        </div>
-        <button class="btn primary" type="submit">Send</button>
-      </form>
-    </div>
-  </section>
-</main>
-
-<footer class="site-footer">
-  <div class="container footer-inner">
-    <p>&copy; <span id="year"></span> Yusuf-Siraj Traboulsi</p>
-    <a href="#" class="top">Back to top ↑</a>
-  </div>
-</footer>
-
-<script src="script.js"></script>
-</body>
-</html>
+  <script src="script.js"></script>
+  </body>
+  </html>
